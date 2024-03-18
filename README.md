@@ -10,8 +10,9 @@ Framework Agnostic CSS and JavaScript package containing the bare essentials to 
 
 ## Dev To-Do
 
-- [ ] Structure CSS
+- [x] Structure CSS
 - [ ] JS Handlers
 - [ ] DOCUMENTATION
-- [ ] body-type elements
-- [ ] Tokens + var Font Stepping
+- [x] body-type elements
+- [x] Tokens + var Font Stepping
+- [ ] Color system

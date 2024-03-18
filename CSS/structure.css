@@ -1,0 +1,79 @@
+@import url("_config.css");
+
+/* SECTION-GRID */
+
+.section-grid {
+  display: grid;
+  grid-template-columns: var(--section-grid);
+  gap: var(--section-grid-gap-y) var(--section-grid-gap-x);
+}
+.section-span-12 {
+  grid-column: var(--section-span-12);
+}
+.section-span-6 {
+  grid-column: var(--section-span-6);
+}
+.section-span-4 {
+  grid-column: var(--section-span-4);
+}
+.section-span-3 {
+  grid-column: var(--section-span-3);
+}
+
+/* FLEXBOX */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-content: center;
+}
+.align-end {
+  align-content: end;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-self-center {
+  justify-self: center;
+}
+
+/* UTILITY */
+
+.gap-05 {
+  gap: 0.5rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.gap-4 {
+  gap: 4rem;
+}
+.gap-6 {
+  gap: 6rem;
+}
+.gap-8 {
+  gap: 8rem;
+}
+.gap-10 {
+  gap: 10rem;
+}

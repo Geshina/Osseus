@@ -1,5 +1,114 @@
 /* STRUCTURE */
 
-/* COLOR */
+:root {
+  /* Desktop */
+  --main-horizontal: 10vw;
+  --main-vertical: 10rem;
+  --main-gap: 8rem;
+
+  --section-grid: repeat(12, 1fr);
+  --section-grid-gap-x: 1rem;
+  --section-grid-gap-y: 1rem;
+
+  --section-span-12: span 12;
+  --section-span-6: span 6;
+  --section-span-4: span 4;
+  --section-span-3: span 3;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  :root {
+    --main-horizontal: 10vw;
+    --main-vertical: 10rem;
+    --main-gap: 8rem;
+
+    --section-grid: repeat(8, 1fr);
+    --section-grid-gap-x: 1rem;
+    --section-grid-gap-y: 1rem;
+
+    --section-span-12: span 8;
+    --section-span-6: span 4;
+    --section-span-4: span 4;
+    --section-span-3: span 2;
+  }
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+  :root {
+    --main-horizontal: 5vw;
+    --main-vertical: 5rem;
+    --main-gap: 4rem;
+
+    --section-grid: repeat(4, 1fr);
+    --section-grid-gap-x: 0.5rem;
+    --section-grid-gap-y: 0.5rem;
+
+    --section-span-12: span 4;
+    --section-span-6: span 4;
+    --section-span-4: span 4;
+    --section-span-3: span 4;
+  }
+}
 
 /* TYPOGRAPHY */
+
+:root {
+  /* FONT GROUPINGS */
+  --font-primary: sans-serif;
+  --font-primary-weight: 300;
+
+  --font-alt: sans-serif;
+  --font-alt-weight: 300;
+
+  --font-base: 1rem;
+  --font-size-step: 1rem;
+  --font-line-height-step: 0.5rem;
+}
+
+/* COLOR */
+
+:root {
+  /* ACCENT */
+
+  /* --accent-primary: hsl(0, 0%, 100%);
+  --accent-secondary: hsl(0, 0%, 100%);
+  --accent-tertiary: hsl(0, 0%, 100%); */
+
+  /* MONO */
+
+  --mono-000: hsl(0, 0%, 0%);
+  --mono-050: hsl(0, 0%, 5%);
+  --mono-100: hsl(0, 0%, 10%);
+  --mono-200: hsl(0, 0%, 20%);
+  --mono-300: hsl(0, 0%, 30%);
+  --mono-400: hsl(0, 0%, 40%);
+  --mono-500: hsl(0, 0%, 50%);
+  --mono-600: hsl(0, 0%, 60%);
+  --mono-700: hsl(0, 0%, 70%);
+  --mono-800: hsl(0, 0%, 80%);
+  --mono-900: hsl(0, 0%, 90%);
+  --mono-950: hsl(0, 0%, 95%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-surface-main: var(--mono-950);
+    --clr-surface-alternate: var(--mono-800);
+    --clr-surface-inverted: var(--mono-050);
+
+    --clr-font-main: var(--mono-900);
+    --clr-font-alternate: var(--mono-800);
+    --clr-font-inverted: var(--mono-100);
+
+    --clr-misc-main: var(--mono-200);
+    --clr-misc-alternate: var(--mono-100);
+    --clr-misc-inverted: var(--mono-600);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* :root {
+  } */
+}

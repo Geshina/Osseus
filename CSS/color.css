@@ -1,0 +1,16 @@
+* {
+  background-color: inherit;
+  color: inherit;
+  border-color: inherit;
+}
+
+.sch-main {
+  background-color: var(--clr-surface-main);
+  color: var(--clr-misc-main);
+}
+.sch-main h1 h2 h3 h4 h5 h6 {
+  color: var(--clr-text-main);
+}
+.sch-main p span {
+  color: var(--clr-text-alternate);
+}
